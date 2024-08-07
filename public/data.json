@@ -1,0 +1,52 @@
+[
+    {
+        "id": "001",
+        "cover": "https://i.postimg.cc/DZLBjfNV/1.jpg",
+        "title": "The Enchanted Forest",
+        "author": "Alice Green",
+        "author_img": "https://i.postimg.cc/c17FfHYw/boy1.png",
+        "post_date": "2023-01-15",
+        "reading_time": 5,
+        "hashtags": ["#fantasy", "#adventure", "#magic"]
+    },
+    {
+        "id": "002",
+        "cover": "https://i.postimg.cc/nhW2nQbb/2.png",
+        "title": "Secrets of the Lost City",
+        "author": "John Doe",
+        "author_img": "https://i.postimg.cc/4d6QvLKs/boy2.jpg",
+        "post_date": "2023-02-20",
+        "reading_time": 7,
+        "hashtags": ["#mystery", "#history", "#thriller"]
+    },
+    {
+        "id": "003",
+        "cover": "https://i.postimg.cc/vTGL0r99/3.png",
+        "title": "Journey to the Stars",
+        "author": "Emily Star",
+        "author_img": "https://i.postimg.cc/L4VVnWKV/girl1.jpg",
+        "post_date": "2023-03-10",
+        "reading_time": 6,
+        "hashtags": ["#sci-fi", "#space", "#adventure"]
+    },
+    {
+        "id": "004",
+        "cover": "https://i.postimg.cc/NffkTxQv/4.jpg",
+        "title": "The Last Kingdom",
+        "author": "Robert King",
+        "author_img": "https://i.postimg.cc/7YsMNTLG/girl2.jpg",
+        "post_date": "2023-04-05",
+        "reading_time": 8 ,
+        "hashtags": ["#historical", "#drama", "#epic"]
+    },
+    {
+        "id": "005",
+        "cover": "https://i.postimg.cc/pTJK5m7d/wallpaperflare-com-wallpaper-12.jpg",
+        "title": "Mysteries of the Deep",
+        "author": "Sarah Blue",
+        "author_img": "https://i.postimg.cc/rwDGZFdh/profile.png",
+        "post_date": "2023-05-25",
+        "reading_time": 4,
+        "hashtags": ["#ocean", "#mystery", "#adventure"]
+    }
+]
