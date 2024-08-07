@@ -28,6 +28,8 @@ const Blog = ({blog, handleAddToBookMark,handelSetRedingTime}) => {
             }
            </p>
            <button onClick={()=>handelSetRedingTime(blog)} className='text-purple-700 font-semibold p-2 text-lg hover:underline'>Mark as read</button>
+           {/* jodi ami chitam tahole blog ar data ai khan tekay distruchring kore pthaite partam */}
+           {/* <button onClick={()=>handelSetRedingTime(reading_time)} className='text-purple-700 font-semibold p-2 text-lg hover:underline'>Mark as read</button> */}
             
         </div>
     );

@@ -4,6 +4,7 @@ import './App.css'
 import Blogs from './assets/Components/Blogs/Blogs'
 import BookMarks from './assets/Components/BookMarks/BookMarks'
 import Header from './assets/Components/Header/Header'
+import Footer from './assets/Components/Footer/Footer'
 
 function App() {
 
@@ -18,9 +19,12 @@ function App() {
   }
 
   const handelSetRedingTime =(blog)=>{
-    const {reading_time}=blog
+    const {reading_time,id}=blog;
     const newReadingTime= (readingTime) + (reading_time);
     setReadingTime(newReadingTime)
+
+    const removeFormBookMark = bookMarks.filter(bookmark => bookmark.id !==id)
+    setBookMarks(removeFormBookMark)
     
   }
   console.log(readingTime)
@@ -44,6 +48,7 @@ function App() {
        readingTime={readingTime}
        ></BookMarks>
       </div>
+      <Footer></Footer>
       </div>
   
     </>
